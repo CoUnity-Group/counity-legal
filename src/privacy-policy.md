@@ -3,14 +3,16 @@
 **Effective date:** August 1, 2026
 **Last updated:** August 1, 2026
 
-This Privacy Policy explains how **CoUnity Group** ("CoUnity", "we", "us") collects, uses, shares, retains and protects information when you interact with our Discord applications and related services (the "Services").
+This Privacy Policy explains how **CoUnity, LLC** ("CoUnity", "we", "us") collects, uses, shares, retains and protects information when you interact with our Discord applications and related services (the "Services").
 
 We operate several Discord bots and supporting web services. This policy applies to all of them. Not every feature described here runs in every Discord server — what is actually collected about you depends on which features the administrators of your server have enabled, and on what you choose to submit.
 
 **Controller and contact**
 
-CoUnity Group
-Byhalia, Mississippi, United States
+CoUnity, LLC  
+226 Southbrook Dr  
+Byhalia, MS 38611-7431  
+United States
 
 For any privacy request, including **opting out** or **deleting your data**: **privacy@counity.xyz**
 
@@ -303,5 +305,7 @@ Questions, requests or complaints:
 
 **privacy@counity.xyz**
 
-CoUnity Group
-Byhalia, Mississippi, United States
+CoUnity, LLC  
+226 Southbrook Dr  
+Byhalia, MS 38611-7431  
+United States

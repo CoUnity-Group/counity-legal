@@ -1,6 +1,6 @@
-# CoUnity Group — Legal
+# CoUnity, LLC — Legal
 
-Published Terms of Service and Privacy Policy for CoUnity Group's Discord
+Published Terms of Service and Privacy Policy for CoUnity's Discord
 applications, served via GitHub Pages.
 
 **Live:** https://counity-group.github.io/counity-legal/
@@ -44,10 +44,12 @@ commits to that.
 - **`build.py` strips HTML comments.** The privacy source carries an internal note
   about not claiming a security control before it exists in production. That
   belongs in this repo, not in the page source of a public document.
-- **No street address is published.** GDPR Art. 13 requires the controller's
-  identity and contact details; the company name, location and a monitored
-  `privacy@counity.xyz` satisfy that. Add a street address to `src/*.md` and
-  rebuild if you later want one.
+- **The registered address is published; the EIN is deliberately not.** GDPR
+  Art. 13 asks for the controller's identity and contact details, which the legal
+  name, registered address and a monitored `privacy@counity.xyz` satisfy. A tax
+  identifier is required by none of GDPR, CCPA or Discord's Developer Terms, and
+  publishing one is a gratuitous fraud and identity-theft exposure. Do not add it,
+  even though it sits in the company records alongside the address.
 - **`privacy@counity.xyz` must stay monitored.** The Privacy Policy commits to
   acknowledging requests promptly and completing them within 30 days. An
   unmonitored address is worse than no address, because the commitment is public.

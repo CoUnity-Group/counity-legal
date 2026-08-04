@@ -3,7 +3,7 @@
 **Effective date:** August 1, 2026
 **Last updated:** August 1, 2026
 
-These Terms of Service ("Terms") govern your use of the Discord applications and related web services (the "Services") operated by **CoUnity Group** ("CoUnity", "we", "us").
+These Terms of Service ("Terms") govern your use of the Discord applications and related web services (the "Services") operated by **CoUnity, LLC** ("CoUnity", "we", "us").
 
 By using the Services — including by invoking a command, interacting with a message component, or participating in a channel where the Services are active — you agree to these Terms. If you do not agree, do not use the Services.
 
@@ -184,7 +184,7 @@ Some jurisdictions do not allow the exclusion of certain warranties, so parts of
 
 ## 12. Limitation of liability
 
-**To the fullest extent permitted by law, CoUnity Group and its officers, employees, contractors and agents will not be liable for:**
+**To the fullest extent permitted by law, CoUnity, LLC and its officers, employees, contractors and agents will not be liable for:**
 
 - Any indirect, incidental, special, consequential, exemplary or punitive damages
 - Any loss of profits, revenue, data, goodwill or anticipated savings
@@ -203,7 +203,7 @@ Nothing in these Terms excludes liability that cannot lawfully be excluded, incl
 
 ## 13. Indemnification
 
-You agree to indemnify and hold harmless CoUnity Group and its officers, employees, contractors and agents from any claim, demand, loss, liability or expense (including reasonable legal fees) arising from your use of the Services, your breach of these Terms, your content, your violation of any law or third-party right, or — if you are a server administrator — your configuration of the Services or your handling of your members' information.
+You agree to indemnify and hold harmless CoUnity, LLC and its officers, employees, contractors and agents from any claim, demand, loss, liability or expense (including reasonable legal fees) arising from your use of the Services, your breach of these Terms, your content, your violation of any law or third-party right, or — if you are a server administrator — your configuration of the Services or your handling of your members' information.
 
 ---
 
@@ -241,5 +241,7 @@ If you are a consumer resident in the European Economic Area or the United Kingd
 
 **privacy@counity.xyz**
 
-CoUnity Group
-Byhalia, Mississippi, United States
+CoUnity, LLC  
+226 Southbrook Dr  
+Byhalia, MS 38611-7431  
+United States

@@ -31,9 +31,9 @@ ROOT = Path(__file__).resolve().parent
 #: (source markdown, output directory, <title>, short description)
 PAGES = [
     ("src/privacy-policy.md", "privacy", "Privacy Policy",
-     "How CoUnity Group handles information in its Discord applications."),
+     "How CoUnity, LLC handles information in its Discord applications."),
     ("src/terms-of-service.md", "terms", "Terms of Service",
-     "The terms governing use of CoUnity Group's Discord applications."),
+     "The terms governing use of CoUnity's Discord applications."),
 ]
 
 # Deliberately self-contained: no fonts, no CDN, no JS. A legal page has to render
@@ -45,7 +45,7 @@ TEMPLATE = """<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{title} · CoUnity Group</title>
+<title>{title} · CoUnity, LLC</title>
 <meta name="description" content="{description}">
 <link rel="canonical" href="{canonical}">
 <style>
@@ -124,7 +124,7 @@ TEMPLATE = """<!doctype html>
 </nav>
 {body}
 <footer>
-  CoUnity Group · Questions or requests:
+  CoUnity, LLC · Questions or requests:
   <a href="mailto:privacy@counity.xyz">privacy@counity.xyz</a>
 </footer>
 </div>
@@ -132,8 +132,8 @@ TEMPLATE = """<!doctype html>
 </html>
 """
 
-INDEX_BODY = """<h1>CoUnity Group — Legal</h1>
-<p>These documents govern the Discord applications operated by CoUnity Group.</p>
+INDEX_BODY = """<h1>CoUnity, LLC — Legal</h1>
+<p>These documents govern the Discord applications operated by CoUnity, LLC.</p>
 <ul>
   <li><a href="{base}/privacy/"><strong>Privacy Policy</strong></a> — what is collected,
       how it is used and shared, and how to opt out or have it deleted.</li>
@@ -189,7 +189,7 @@ def main() -> int:
 
     index = TEMPLATE.format(
         title="Legal",
-        description="Privacy Policy and Terms of Service for CoUnity Group's Discord applications.",
+        description="Privacy Policy and Terms of Service for CoUnity's Discord applications.",
         canonical=f"{base}/",
         base=base,
         body=INDEX_BODY.format(base=base),
