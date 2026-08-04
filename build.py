@@ -48,6 +48,10 @@ TEMPLATE = """<!doctype html>
 <title>{title} · CoUnity, LLC</title>
 <meta name="description" content="{description}">
 <link rel="canonical" href="{canonical}">
+<!-- Favicon inlined as a data URI: keeps the page self-contained, so there is no
+     second request that can 404 or be blocked. A plain "C" monogram — no
+     wordmark, so it needs no maintenance if branding changes. -->
+<link rel="icon" href="data:image/svg+xml,{favicon}">
 <style>
   :root {{
     --bg: #ffffff; --fg: #1a1a1a; --muted: #5c5c5c; --rule: #e4e4e4;
@@ -149,6 +153,16 @@ numeric Discord user ID. Requests are acknowledged promptly and completed within
 process.</p>
 """
 
+# A "C" monogram. Deliberately not a wordmark: nothing to update if the brand
+# changes, and it stays legible at 16px where lettering usually does not.
+_FAVICON_SVG = (
+    "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'>"
+    "<rect width='32' height='32' rx='7' fill='%236b46c1'/>"
+    "<text x='16' y='23' font-family='-apple-system,Segoe UI,Helvetica,Arial,sans-serif'"
+    " font-size='20' font-weight='600' fill='%23ffffff' text-anchor='middle'>C</text>"
+    "</svg>"
+)
+
 _COMMENT_RE = re.compile(r"<!--.*?-->", re.DOTALL)
 
 
@@ -181,6 +195,7 @@ def main() -> int:
             title=html.escape(title),
             description=html.escape(description),
             canonical=f"{base}/{outdir}/",
+            favicon=_FAVICON_SVG,
             base=base,
             body=render(source.read_text(encoding="utf-8")),
         )
@@ -191,6 +206,7 @@ def main() -> int:
         title="Legal",
         description="Privacy Policy and Terms of Service for CoUnity's Discord applications.",
         canonical=f"{base}/",
+            favicon=_FAVICON_SVG,
         base=base,
         body=INDEX_BODY.format(base=base),
     )
